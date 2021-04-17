@@ -6,7 +6,7 @@
         <artifactId>parent_dependency</artifactId>
         <groupId>com.shaoteemo</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../parent_dependency/pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

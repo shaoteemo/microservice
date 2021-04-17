@@ -71,6 +71,9 @@
                             <goals>
                                 <goal>repackage</goal>
                             </goals>
+                            <configuration>
+                                <classifier>shaoteemo-run</classifier>
+                            </configuration>
                         </execution>
                     </executions>
                 </plugin>
