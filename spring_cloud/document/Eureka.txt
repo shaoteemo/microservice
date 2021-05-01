@@ -19,7 +19,9 @@
 
     CAP定理：
 
-
+6.Eureka开启安全认证[01-spring_cloud-eureka]
+    需要关闭SpringSecurity的csrf认证
+    连接地址结构：http://用户名:密码@IP:PORT/eureka/
 
 Eureka集群原理
 

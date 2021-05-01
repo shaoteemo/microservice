@@ -9,6 +9,12 @@ server:
 spring:
   application:
     name: cloud for eureka
+    #Eureka注册中心安全认证
+    #Eureka密码
+#  security:
+#    user:
+#      password: 1234
+#      name: user
 
 
 #关闭服务发现和注册（单机）
@@ -23,3 +29,5 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://localhost:80
+      #开启Eureka认证的写法
+#      defaultZone: http://user:1234@localhost:80

@@ -9,3 +9,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:80/eureka/
+      #开启Eureka认证的写法
+      #defaultZone: http://user:1234@localhost:80/eureka/
